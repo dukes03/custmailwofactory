@@ -13,9 +13,7 @@ package customermailapplication;
 //make this class a subclass of customer
 public class RegularCustomer extends Customer {
 
-    RegularCustomer() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+
 
     @Override
     public String createMail() {

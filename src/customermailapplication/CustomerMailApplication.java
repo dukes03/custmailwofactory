@@ -18,7 +18,7 @@ public class CustomerMailApplication {
      * @param args the command line arguments
      */
     
-    public Customer customer;
+    public static Customer customer;
     public  static String type ;
     public String generateMail() {
         return customer.createMail();
